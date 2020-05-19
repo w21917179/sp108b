@@ -1,0 +1,48 @@
+
+for (i=1;i<3;i=i+1){
+    print(i);
+}
+
+for (ASSIGN ';' E ';' ASSIGN) BLOCK
+i=1只要設定一次
+i=i+1第一次不用跑
+
+i=1
+(L1)
+if i<3 goto L3  else goto L4
+(L2)
+i=i+1
+goto L1
+(L3)
+print(i)
+goto L2
+(L4)
+===
+
+label:      (L1)
+goto label  goto L1
+
+冒號是重點 偵測兩個字已後是冒號就連到goto
+
+
+ char *tokens[3];
+ tokens[0]="apple";
+ printf("%s",tokens[0]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
