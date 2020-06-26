@@ -40,7 +40,7 @@ chrome瀏覽器執行
 ======
 部分原始碼來自底下程式或範例  
 Beej's Guide to Network Programming 正體中文版  
-<http://beej-zhtw.netdpi.net/09-man-manual/9-2-bind>  
+<http://beej-zhtw.netdpi.net>  
 親手打造 HTTP 網路服務：超小 Web Server 的撰寫  
 <https://fred-zone.blogspot.com/2007/09/http-web-server.html>  
 Program : nweb.c  
