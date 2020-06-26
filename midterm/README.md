@@ -113,6 +113,7 @@ if,for,goto是由原程式擴充
 
     nextLabel()
     skip()
+    
     isNext()
     isNextNext() -> 由isNext()改寫
     STMT()
