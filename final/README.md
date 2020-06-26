@@ -1,7 +1,7 @@
 執行
 ======
-    gcc -o httpserver.exe httpserver.c  
-    ./httpserver.exe  
+    gcc httpserver.c  
+    ./a.out  
  程式會以儲存目錄位置作為根目錄  
  
  執行結果
